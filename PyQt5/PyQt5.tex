@@ -1,0 +1,190 @@
+\documentclass[openbib]{article}
+
+\usepackage{color}
+\usepackage{ctex}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{graphicx,psfrag,epsfig}
+\input{mp-style2.tex}
+\usepackage{fontspec}
+\usepackage{bm}
+\graphicspath{{figures/}}
+\renewcommand{\contentsname}{\centerline{目录}}
+
+\usepackage{multirow}
+\begin{document}
+	
+	%	\caption{第一章  }
+	\title{PyQt5}
+	
+	%	pip install pyinstaller
+	%	pyinstaller.exe -F -w C:\Users\seed\PycharmProjects\untitled5\main.py
+	
+	\maketitle
+	
+	\newpage
+	\tableofcontents
+	\newpage
+	\section{实例开启学习}
+	\begin{Python}{实例}
+import sys
+from PyQt5.QtWidgets import QApplication,QWidget
+
+if __name__ == '__main__':
+	#创建类的实例
+	app = QApplication(sys.argv)
+	#创建一个窗口
+	w = QWidget()
+	#设置窗口的尺寸
+	w.resize(400,200)
+	#移动窗口
+	w.move(300,300)
+	
+	#设置窗口的标题
+	w.setWindowTitle('第一个基于PyQy5的桌面应用')
+	#显示窗口
+	w.show()
+	
+	#进入程序的主循环，并通过exit函数确保主循环安全结束
+	sys.exit(app.exec_())
+	\end{Python}
+以上的案例为自己打印的，为了生成更为复杂的界面，要调用Anaconda中专门生成界面的软件QtDesigner命名为Start Designer,路径为$D:\backslash Anaconda3\backslash Library\backslash bin\backslash designer.exe$
+
+文件菜单中的设置，工具——外部工具。添加新的外部工具，名称和描述自己加，程序指定上述路径，参数可写：工作目录指定要运行Qtdesigner的工作程序目录，
+
+在项目对话框中单击右键，选定External tools中所加的外部工具，就能调用起Qtdesigner。
+
+\subsection{转换文件格式}
+将.ui格式文件(Qtdesigner保存格式)转换为.py格式。
+
+调用终端在项目所在的目录下运行pyuic5 demo.ui -o demo.py还有更简便的是将上述的程序路径改为$D:\backslash Anaconda3\backslash Library\backslash bin\backslash pyuic5.bat$。参数改为$\$FileName\$ -o \$FileNameWithoutExtension\$.py$。工作目录改为$\$FileDir\$$。之后直接选中要转换的.ui文件之后右键调用External tools中的外部工具。
+
+\subsection{布局}
+\begin{center}
+	1.水平布局
+\end{center}
+选中要布局的对话框，单机右键，选定布局(Horizontal Layout)，选定水平布局。也能选定布局后，直接将元素拖进趋于内，注意要沿着边线放置，出现蓝线后放置。完成水平设置布局后保存为text.ui，转换文件格式生成text.py文件。
+\begin{Python}{水平布局}
+import sys
+import text
+from PyQt5.QtWidgets import QApplication,QMainWindow
+
+if __name__ == '__main__':
+	#创建类的实例
+	app = QApplication(sys.argv)
+	#创建一个窗口
+	mainWindow = QMainWindow()
+	#向主窗口上添加控件
+	ui = text.Ui_MainWindow()
+	ui.setupUi(mainWindow)
+	mainWindow.show()
+	
+	#进入程序的主循环，并通过exit函数确保主循环安全结束
+	sys.exit(app.exec_())
+\end{Python}
+\begin{center}
+	2.垂直布局
+\end{center}
+选中要布局的对话框，单机右键，选定布局，选定垂直布局(Vertical Layout)。也能选定布局后，直接将元素拖进趋于内，注意要沿着边线放置，出现蓝线后放置。完成水平设置布局后保存为text.ui，转换文件格式生成text.py文件。
+\begin{Python}{垂直布局}
+import sys
+import text
+from PyQt5.QtWidgets import QApplication,QMainWindow
+
+if __name__ == '__main__':
+	#创建类的实例
+	app = QApplication(sys.argv)
+	#创建一个窗口
+	mainWindow = QMainWindow()
+	#向主窗口上添加控件
+	ui = text.Ui_MainWindow()
+	ui.setupUi(mainWindow)
+	mainWindow.show()
+	
+	#进入程序的主循环，并通过exit函数确保主循环安全结束
+	sys.exit(app.exec_())
+\end{Python}
+\begin{center}
+	3.网格布局
+\end{center}
+选中要布局的对话框，单机右键，选定布局，选定网格布局(Grid Layout)。也能选定布局后，直接将元素拖进趋于内，注意要沿着边线放置，出现蓝线后放置。完成水平设置布局后保存为text.ui，转换文件格式生成text.py文件。
+\begin{Python}{网格布局}
+import sys
+import text
+from PyQt5.QtWidgets import QApplication,QMainWindow
+
+if __name__ == '__main__':
+	#创建类的实例
+	app = QApplication(sys.argv)
+	#创建一个窗口
+	mainWindow = QMainWindow()
+	#向主窗口上添加控件
+	ui = text.Ui_MainWindow()
+	ui.setupUi(mainWindow)
+	mainWindow.show()
+	
+	#进入程序的主循环，并通过exit函数确保主循环安全结束
+	sys.exit(app.exec_())
+\end{Python}
+\begin{center}
+	4.表单布局
+\end{center}
+选中要布局的对话框，单机右键，选定布局，选定表单布局(Form Layout)。也能选定布局后，直接将元素拖进趋于内，注意要沿着边线放置，出现蓝线后放置。完成水平设置布局后保存为text.ui，转换文件格式生成text.py文件。
+\begin{Python}{表单布局}
+import sys
+import text
+from PyQt5.QtWidgets import QApplication,QMainWindow
+
+if __name__ == '__main__':
+	#创建类的实例
+	app = QApplication(sys.argv)
+	#创建一个窗口
+	mainWindow = QMainWindow()
+	#向主窗口上添加控件
+	ui = text.Ui_MainWindow()
+	ui.setupUi(mainWindow)
+	mainWindow.show()
+	
+	#进入程序的主循环，并通过exit函数确保主循环安全结束
+	sys.exit(app.exec_())
+\end{Python}
+
+需要在Qt Designer中设置信号(signal)与槽(slot)，这是Qt的核心，也是PyQt的核心机制
+
+信号:是由对象或控件发射出去的消息。当单击按钮时，按钮就会向外部发送单击的消息，这些发送出去的信号需要一些代码进行拦截，这些代码就是槽。槽本质是一个函数或方法。
+
+信号可以理解为事件，槽可以理解为事件函数，需要将信号与槽绑定。一个信号可以和多个槽绑定，一个槽可以拦截多个信号。
+
+主窗口有3种类型：
+
+QMainWindow,可以包含菜单栏，工具栏，状态栏和标题栏，是最常见的窗口形式
+
+QDialog:是对话窗口的基类，没有菜单栏，工具栏，状态栏。
+
+QWidget:不确定窗口的用途，就使用QWidget。
+\begin{Python}{代码打的第一个例子}
+import sys
+from PyQt5.QtWidgets import QMainWindow,QApplication
+from PyQt5.QtGui import QIcon
+
+class FirstMainWin(QMainWindow):
+	def __init__(self):
+		super(FirstMainWin,self).__init__()
+		
+		#设置主窗口的标题
+		self.setWindowTitle('第一个主窗口应用')
+		#设置窗口的尺寸
+		self.resize(400,300)
+		self.status = self.statusBar()
+		self.status.showMessage('只存在5秒的消息',5000)
+
+if __name__=='__main__':
+app = QApplication(sys.argv)
+app.setWindowIcon(QIcon ('517.ico'))
+main = FirstMainWin()
+main.show()
+
+sys.exit(app.exec_())
+	
+\end{Python}
+\end{document}
