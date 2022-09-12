@@ -1,0 +1,342 @@
+\contentsline {section}{\numberline {1}Simple Baselines for Human Estimation and Tracking}{13}
+\contentsline {subsection}{\numberline {1.1}Introduction}{13}
+\contentsline {subsubsection}{\numberline {1.1.1}The past reasult in some dataset}{13}
+\contentsline {subsection}{\numberline {1.2}Network}{13}
+\contentsline {subsection}{\numberline {1.3}Conclusions and Contributions}{15}
+\contentsline {subsection}{\numberline {1.4}Ablation Study}{15}
+\contentsline {subsection}{\numberline {1.5}The direction after this paper}{16}
+\contentsline {section}{\numberline {2}LightTrack: A Generic Framework for Online Top-Down Human Pose Tracking}{17}
+\contentsline {subsection}{\numberline {2.1}Abstract}{17}
+\contentsline {subsection}{\numberline {2.2}Introduction}{17}
+\contentsline {subsection}{\numberline {2.3}Related Work}{18}
+\contentsline {subsubsection}{\numberline {2.3.1}Human Pose Estimation and Tracking(HPE)}{18}
+\contentsline {subsubsection}{\numberline {2.3.2}Object Detection vc. Human Pose Estimation}{18}
+\contentsline {subsubsection}{\numberline {2.3.3}Multi-Object Tracking}{18}
+\contentsline {subsubsection}{\numberline {2.3.4}Graphical Representation for Human Pose}{19}
+\contentsline {subsection}{\numberline {2.4}Method}{19}
+\contentsline {subsubsection}{\numberline {2.4.1}Top-Down Pose Tracking Framework}{19}
+\contentsline {subsubsection}{\numberline {2.4.2}Siamese Graph Convolutional Networks}{21}
+\contentsline {subsection}{\numberline {2.5}Conclutions and Contributions}{22}
+\contentsline {section}{\numberline {3}PoseTrack A Benchmark for Human Pose Estimation and Tracking}{23}
+\contentsline {subsection}{\numberline {3.1}Abstract}{23}
+\contentsline {subsection}{\numberline {3.2}Introduction}{23}
+\contentsline {subsection}{\numberline {3.3}Data Annotation}{24}
+\contentsline {subsection}{\numberline {3.4}Challenges}{24}
+\contentsline {subsection}{\numberline {3.5}Experimental Setup}{25}
+\contentsline {subsection}{\numberline {3.6}The State of Art}{25}
+\contentsline {section}{\numberline {4}Pose Recognition with Cascade Transformers}{26}
+\contentsline {subsection}{\numberline {4.1}Abstract}{26}
+\contentsline {subsection}{\numberline {4.2}Introduction}{26}
+\contentsline {subsection}{\numberline {4.3}Contributions}{27}
+\contentsline {subsection}{\numberline {4.4}Related Work}{27}
+\contentsline {subsection}{\numberline {4.5}Method}{28}
+\contentsline {subsubsection}{\numberline {4.5.1}Person-Detection Transformer}{31}
+\contentsline {subsubsection}{\numberline {4.5.2}Keypoint-Detection Transformer}{31}
+\contentsline {subsubsection}{\numberline {4.5.3}Multi-layer Cropping with STN}{31}
+\contentsline {subsection}{\numberline {4.6}Experiment}{32}
+\contentsline {section}{\numberline {5}Bottom-Up Human Pose Estimation Via Disentangled Keypoint Regression}{33}
+\contentsline {subsection}{\numberline {5.1}Abstract}{34}
+\contentsline {subsection}{\numberline {5.2}Introduction}{34}
+\contentsline {subsection}{\numberline {5.3}Contributions}{34}
+\contentsline {subsection}{\numberline {5.4}Related Work}{35}
+\contentsline {subsection}{\numberline {5.5}Approach}{35}
+\contentsline {subsubsection}{\numberline {5.5.1}Disentangled Keypoint Regression}{35}
+\contentsline {subsubsection}{\numberline {5.5.2}Adaptive activation}{36}
+\contentsline {subsubsection}{\numberline {5.5.3}Separate regression}{36}
+\contentsline {subsubsection}{\numberline {5.5.4}Regression loss}{37}
+\contentsline {subsubsection}{\numberline {5.5.5}Keypoint and heatmap estimation loss}{37}
+\contentsline {subsubsection}{\numberline {5.5.6}Whole loss}{37}
+\contentsline {subsection}{\numberline {5.6}Experiments}{38}
+\contentsline {section}{\numberline {6}Vision Transformer with Progressive Sampling}{39}
+\contentsline {subsection}{\numberline {6.1}Abstract}{39}
+\contentsline {subsection}{\numberline {6.2}Introduction}{39}
+\contentsline {subsection}{\numberline {6.3}Related Work}{40}
+\contentsline {subsubsection}{\numberline {6.3.1}Transformers in Computer Vision}{40}
+\contentsline {subsubsection}{\numberline {6.3.2}Hard Visual Attention}{41}
+\contentsline {subsection}{\numberline {6.4}Methodology}{41}
+\contentsline {subsubsection}{\numberline {6.4.1}Progressive Sampling}{41}
+\contentsline {subsubsection}{\numberline {6.4.2}Overall Archtecture}{42}
+\contentsline {subsubsection}{\numberline {6.4.3}Transformer Encoder Layer}{43}
+\contentsline {section}{\numberline {7}PP-LCNet: A Lightweight CPU Convolutional Neural Network}{43}
+\contentsline {subsection}{\numberline {7.1}Abstract}{43}
+\contentsline {subsection}{\numberline {7.2}Introduction}{44}
+\contentsline {subsection}{\numberline {7.3}Related Works}{44}
+\contentsline {subsubsection}{\numberline {7.3.1}Manually-designed Architecture}{44}
+\contentsline {subsubsection}{\numberline {7.3.2}Neural Architecture Search}{44}
+\contentsline {subsection}{\numberline {7.4}Approach}{44}
+\contentsline {subsubsection}{\numberline {7.4.1}Better Activation Function}{45}
+\contentsline {subsubsection}{\numberline {7.4.2}SE Modules at Appropriate Position}{45}
+\contentsline {subsubsection}{\numberline {7.4.3}Larger Convolution kernels}{45}
+\contentsline {subsubsection}{\numberline {7.4.4}Larger dimensional 1x1 conv layer after GPA}{46}
+\contentsline {subsection}{\numberline {7.5}Ablation Study}{46}
+\contentsline {subsubsection}{\numberline {7.5.1}The impact of SE module in different positions}{46}
+\contentsline {subsubsection}{\numberline {7.5.2}The impact of large-kernel in different locations}{46}
+\contentsline {subsubsection}{\numberline {7.5.3}The impact of different techniques}{46}
+\contentsline {subsection}{\numberline {7.6}Conclution and Future Work}{47}
+\contentsline {section}{\numberline {8}FCPose: Fully Convolutional Multi-Person Pose Estimation with Dynamic Instance-Aware Convolutions}{47}
+\contentsline {subsection}{\numberline {8.1}Abstract}{47}
+\contentsline {subsection}{\numberline {8.2}Introduction}{47}
+\contentsline {subsection}{\numberline {8.3}Contributions}{48}
+\contentsline {subsection}{\numberline {8.4}Related Work}{48}
+\contentsline {subsection}{\numberline {8.5}Approach}{49}
+\contentsline {subsubsection}{\numberline {8.5.1}Overall Architecture}{49}
+\contentsline {subsubsection}{\numberline {8.5.2}Keypoint Refinement with Regression}{50}
+\contentsline {subsubsection}{\numberline {8.5.3}Training Targets and Loss Functions}{51}
+\contentsline {subsection}{\numberline {8.6}Ablation Experiments}{52}
+\contentsline {subsubsection}{\numberline {8.6.1}Architecture of the Dynamic Keypoint Head}{52}
+\contentsline {subsection}{\numberline {8.7}Conclusions}{53}
+\contentsline {section}{\numberline {9}Polarized Self-Attention: Towards High-quality Pixel-wise Regression}{54}
+\contentsline {subsection}{\numberline {9.1}Abstract}{54}
+\contentsline {subsection}{\numberline {9.2}Introduction}{54}
+\contentsline {subsection}{\numberline {9.3}Related Work}{55}
+\contentsline {subsubsection}{\numberline {9.3.1}Pixel-wise Regression Tasks}{55}
+\contentsline {subsubsection}{\numberline {9.3.2}Self-attention and its Variants}{55}
+\contentsline {subsubsection}{\numberline {9.3.3}Full-tensor and simplified attention blocks}{55}
+\contentsline {subsection}{\numberline {9.4}Method}{55}
+\contentsline {subsubsection}{\numberline {9.4.1}Self-Attention for Pixel-wise Regression}{55}
+\contentsline {subsubsection}{\numberline {9.4.2}Polarized Self-Attention(PSA)Block}{57}
+\contentsline {subsection}{\numberline {9.5}Ablation Study}{58}
+\contentsline {subsection}{\numberline {9.6}Conclusion and Future Work}{59}
+\contentsline {section}{\numberline {10}The Devil in the Details: Delving into Unbiased Data Processing for Human Pose Estimation}{59}
+\contentsline {subsection}{\numberline {10.1}Abstract}{59}
+\contentsline {subsection}{\numberline {10.2}Introduction}{60}
+\contentsline {subsection}{\numberline {10.3}Contributions}{60}
+\contentsline {subsection}{\numberline {10.4}Related Work}{61}
+\contentsline {subsection}{\numberline {10.5}Unbiased Data Processing for Human Pose Estimation}{62}
+\contentsline {subsubsection}{\numberline {10.5.1}Data Transformation}{62}
+\contentsline {subsection}{\numberline {10.6}Future Work}{63}
+\contentsline {section}{\numberline {11}A ConvNet for the 2020s}{63}
+\contentsline {subsection}{\numberline {11.1}Abstract}{63}
+\contentsline {subsection}{\numberline {11.2}Introdution}{63}
+\contentsline {subsection}{\numberline {11.3}Modernizing a ConvNet: a Roadmap}{65}
+\contentsline {subsubsection}{\numberline {11.3.1}Tranining Techniques}{65}
+\contentsline {subsubsection}{\numberline {11.3.2}Macro Design}{66}
+\contentsline {subsubsection}{\numberline {11.3.3}ResNeXt-ify}{66}
+\contentsline {subsubsection}{\numberline {11.3.4}Inverted Bottleneck}{67}
+\contentsline {subsubsection}{\numberline {11.3.5}Increasing the kernel size}{67}
+\contentsline {subsubsection}{\numberline {11.3.6}Replacing ReLU with GELU}{67}
+\contentsline {subsubsection}{\numberline {11.3.7}Fewer activation functions}{67}
+\contentsline {subsubsection}{\numberline {11.3.8}Fewer normalization layers}{67}
+\contentsline {subsubsection}{\numberline {11.3.9}Substituting BN with LN}{68}
+\contentsline {subsubsection}{\numberline {11.3.10}Separete downsampling layers}{68}
+\contentsline {subsection}{\numberline {11.4}Conclusions}{69}
+\contentsline {section}{\numberline {12}Multi-Instance Pose Networks: Rethinking Top-Down Pose Estimation}{70}
+\contentsline {subsection}{\numberline {12.1}Abstract}{70}
+\contentsline {subsection}{\numberline {12.2}Introduction}{70}
+\contentsline {subsection}{\numberline {12.3}Contributions}{71}
+\contentsline {subsection}{\numberline {12.4}Related Work}{71}
+\contentsline {subsection}{\numberline {12.5}Method}{72}
+\contentsline {subsubsection}{\numberline {12.5.1}Training Multi-Instance Pose Network}{72}
+\contentsline {subsection}{\numberline {12.6}Conclusion}{73}
+\contentsline {section}{\numberline {13}Cascade Feature Aggregation for Human Pose Estimation}{73}
+\contentsline {subsection}{\numberline {13.1}Abstract}{73}
+\contentsline {subsection}{\numberline {13.2}Introduction}{74}
+\contentsline {subsection}{\numberline {13.3}Contributions}{74}
+\contentsline {subsection}{\numberline {13.4}Related Work}{74}
+\contentsline {subsection}{\numberline {13.5}Network Architecture}{75}
+\contentsline {subsubsection}{\numberline {13.5.1}Overview}{75}
+\contentsline {subsubsection}{\numberline {13.5.2}Backbone Model}{76}
+\contentsline {subsubsection}{\numberline {13.5.3}Cascaded Feature Aggregation}{77}
+\contentsline {subsubsection}{\numberline {13.5.4}Results inprovement by fusing heatmaps}{78}
+\contentsline {subsection}{\numberline {13.6}Conclusions}{79}
+\contentsline {section}{\numberline {14}Rethinking the Heatmap Regression for Bottom-up Human Pose Estimation}{79}
+\contentsline {subsection}{\numberline {14.1}Abstract}{79}
+\contentsline {subsection}{\numberline {14.2}Introduction}{79}
+\contentsline {subsection}{\numberline {14.3}Contributions}{80}
+\contentsline {subsection}{\numberline {14.4}Related Works}{80}
+\contentsline {subsubsection}{\numberline {14.4.1}Bottom-up Human Pose Estimation}{80}
+\contentsline {subsubsection}{\numberline {14.4.2}Heatmap Regression}{80}
+\contentsline {subsubsection}{\numberline {14.4.3}Uncertainly Prediction}{81}
+\contentsline {subsection}{\numberline {14.5}Proposed Method}{81}
+\contentsline {subsubsection}{\numberline {14.5.1}Formulation}{81}
+\contentsline {subsubsection}{\numberline {14.5.2}Scale-Adaptive Heatmap Regression}{81}
+\contentsline {subsubsection}{\numberline {14.5.3}Relation to Uncertainty Presiction}{83}
+\contentsline {subsubsection}{\numberline {14.5.4}weight-Adaptive Heatmap Regression}{83}
+\contentsline {subsection}{\numberline {14.6}Conclusion}{84}
+\contentsline {section}{\numberline {15}MixConv: Mixed Depthwise Convolutional Kernels}{84}
+\contentsline {subsection}{\numberline {15.1}Abstract}{84}
+\contentsline {subsection}{\numberline {15.2}Introdution}{85}
+\contentsline {subsection}{\numberline {15.3}Related Work}{86}
+\contentsline {subsection}{\numberline {15.4}MixConv}{86}
+\contentsline {subsubsection}{\numberline {15.4.1}MixConv Feature Map}{86}
+\contentsline {subsubsection}{\numberline {15.4.2}MixConv Design Choice}{87}
+\contentsline {subsubsection}{\numberline {15.4.3}Ablation Study}{87}
+\contentsline {subsection}{\numberline {15.5}MixNet}{89}
+\contentsline {subsection}{\numberline {15.6}Conclusions}{89}
+\contentsline {section}{\numberline {16}Toward fast and accurate human pose estimation via soft-gated skip connections}{89}
+\contentsline {subsection}{\numberline {16.1}Abstract}{90}
+\contentsline {subsection}{\numberline {16.2}Contributions}{90}
+\contentsline {subsection}{\numberline {16.3}Introdution}{90}
+\contentsline {subsection}{\numberline {16.4}Related Work}{90}
+\contentsline {subsubsection}{\numberline {16.4.1}Efficient Neural Nerworks}{90}
+\contentsline {subsubsection}{\numberline {16.4.2}Human Pose Estimation}{91}
+\contentsline {subsection}{\numberline {16.5}Method}{92}
+\contentsline {subsubsection}{\numberline {16.5.1}Soft-gated Residual Connections}{92}
+\contentsline {subsubsection}{\numberline {16.5.2}Improved Network Architecture}{94}
+\contentsline {subsection}{\numberline {16.6}Conclution}{95}
+\contentsline {section}{\numberline {17}GhostNet: More Features from Cheap Operations}{96}
+\contentsline {subsection}{\numberline {17.1}Abstract}{96}
+\contentsline {subsection}{\numberline {17.2}Introdution}{96}
+\contentsline {subsection}{\numberline {17.3}Related Work}{97}
+\contentsline {subsubsection}{\numberline {17.3.1}Model Compression}{97}
+\contentsline {subsubsection}{\numberline {17.3.2}Compact Model Design}{97}
+\contentsline {subsection}{\numberline {17.4}Convolutions}{97}
+\contentsline {subsection}{\numberline {17.5}Approach}{98}
+\contentsline {subsubsection}{\numberline {17.5.1}Ghost Module for More Features}{98}
+\contentsline {subsection}{\numberline {17.6}Building Efficient CNNs}{99}
+\contentsline {subsection}{\numberline {17.7}Conclusion}{100}
+\contentsline {section}{\numberline {18}AID: Pushing the performance boundary of human pose estimation with information dropping augmentation}{101}
+\contentsline {subsection}{\numberline {18.1}Abstract}{101}
+\contentsline {subsection}{\numberline {18.2}Introduction}{101}
+\contentsline {subsection}{\numberline {18.3}Contributions}{102}
+\contentsline {subsection}{\numberline {18.4}Related Work}{102}
+\contentsline {subsubsection}{\numberline {18.4.1}Human Pose Estimation}{102}
+\contentsline {subsubsection}{\numberline {18.4.2}Information Dropping}{103}
+\contentsline {subsection}{\numberline {18.5}Methodology}{103}
+\contentsline {subsubsection}{\numberline {18.5.1}AID for Human Pose Estimation}{103}
+\contentsline {subsubsection}{\numberline {18.5.2}Training Schedule for AID}{104}
+\contentsline {subsection}{\numberline {18.6}Conclusion and Future Work}{104}
+\contentsline {section}{\numberline {19}Fast Human Pose Estimation}{105}
+\contentsline {subsection}{\numberline {19.1}Abstract}{105}
+\contentsline {subsection}{\numberline {19.2}Introduction}{105}
+\contentsline {subsection}{\numberline {19.3}Contributions}{105}
+\contentsline {subsection}{\numberline {19.4}Related Work}{106}
+\contentsline {subsubsection}{\numberline {19.4.1}Human Pose Estimation}{106}
+\contentsline {subsubsection}{\numberline {19.4.2}Knowledge Distillation}{106}
+\contentsline {subsection}{\numberline {19.5}Fast Human Pose Estimation}{106}
+\contentsline {subsubsection}{\numberline {19.5.1}Compact Pose Network Architecture}{107}
+\contentsline {subsubsection}{\numberline {19.5.2}Supervision Enhancement by Pose Distillation}{107}
+\contentsline {subsubsection}{\numberline {19.5.3}Model Training and Deployment}{109}
+\contentsline {subsection}{\numberline {19.6}Ablation Study}{109}
+\contentsline {subsubsection}{\numberline {19.6.1}Effect of Pose Knowledge Distillation}{109}
+\contentsline {subsubsection}{\numberline {19.6.2}Parameter Analysisi of Loss Balance}{109}
+\contentsline {subsubsection}{\numberline {19.6.3}Cost-effectiveness Analysis of Hourglass}{110}
+\contentsline {subsubsection}{\numberline {19.6.4}Pose Distillation Loss Function}{110}
+\contentsline {subsubsection}{\numberline {19.6.5}FPD Generalisation Evaluation}{110}
+\contentsline {subsection}{\numberline {19.7}Conclusion}{110}
+\contentsline {section}{\numberline {20}Fast and Lightweight Human Pose Estimation}{111}
+\contentsline {subsection}{\numberline {20.1}Abstract}{111}
+\contentsline {subsection}{\numberline {20.2}Introduction}{111}
+\contentsline {subsection}{\numberline {20.3}Contributions}{112}
+\contentsline {subsection}{\numberline {20.4}Related Works}{112}
+\contentsline {subsubsection}{\numberline {20.4.1}Top-performing Human Pose Estimation}{112}
+\contentsline {subsubsection}{\numberline {20.4.2}Lightweight Pose Estimation}{113}
+\contentsline {subsubsection}{\numberline {20.4.3}Lightweight Block}{113}
+\contentsline {subsubsection}{\numberline {20.4.4}Attention Mechanism}{114}
+\contentsline {subsubsection}{\numberline {20.4.5}Structural Similarity}{114}
+\contentsline {subsection}{\numberline {20.5}Approach}{115}
+\contentsline {subsubsection}{\numberline {20.5.1}Smart Module for More Features}{115}
+\contentsline {subsubsection}{\numberline {20.5.2}Building Lightweight Bottleneck Block}{117}
+\contentsline {subsubsection}{\numberline {20.5.3}Fast And Lightweight Network}{118}
+\contentsline {subsection}{\numberline {20.6}Ablation Study}{119}
+\contentsline {subsubsection}{\numberline {20.6.1}Lightweight Bottleneck Block}{120}
+\contentsline {subsubsection}{\numberline {20.6.2}Proposed Network}{120}
+\contentsline {subsubsection}{\numberline {20.6.3}Structural Similarity Measurement}{121}
+\contentsline {subsection}{\numberline {20.7}Conclusion}{121}
+\contentsline {section}{\numberline {21}Distilling the Knowledge in a Neural Network}{121}
+\contentsline {subsection}{\numberline {21.1}Abstract}{121}
+\contentsline {subsection}{\numberline {21.2}Introduction}{122}
+\contentsline {subsection}{\numberline {21.3}Distillation}{123}
+\contentsline {subsubsection}{\numberline {21.3.1}Matching logits is a special case of distillation}{124}
+\contentsline {section}{\numberline {22}PP-PicoDet: A Better Real-Time Object Detector on Mobile Devives}{125}
+\contentsline {subsection}{\numberline {22.1}Abstract}{125}
+\contentsline {subsubsection}{\numberline {22.1.1}Anchor-free and Anchor-based}{125}
+\contentsline {subsection}{\numberline {22.2}Introduction}{126}
+\contentsline {subsection}{\numberline {22.3}Contributions}{126}
+\contentsline {subsection}{\numberline {22.4}Approach}{127}
+\contentsline {subsubsection}{\numberline {22.4.1}Better Backbone}{127}
+\contentsline {subsubsection}{\numberline {22.4.2}Neural Architecture Search}{127}
+\contentsline {section}{\numberline {23}Dite-HRNet:Dynamic Lightweight High-Resolition Network for Human Pose Estimation}{128}
+\contentsline {subsection}{\numberline {23.1}Abstract}{128}
+\contentsline {subsection}{\numberline {23.2}Introduction}{128}
+\contentsline {subsection}{\numberline {23.3}Contributions}{128}
+\contentsline {subsection}{\numberline {23.4}Related Work}{129}
+\contentsline {subsubsection}{\numberline {23.4.1}Light Human Pose Estimation}{129}
+\contentsline {subsubsection}{\numberline {23.4.2}Efficient CNN Blocks}{129}
+\contentsline {subsubsection}{\numberline {23.4.3}Spatial Dependency Modeling}{129}
+\contentsline {subsubsection}{\numberline {23.4.4}Dynamic CNN Architectures}{129}
+\contentsline {subsection}{\numberline {23.5}Dite-HRNet}{130}
+\contentsline {subsubsection}{\numberline {23.5.1}Block Design}{131}
+\contentsline {subsubsection}{\numberline {23.5.2}Configuration}{132}
+\contentsline {subsubsection}{\numberline {23.5.3}Dynamic Split Convolution(DSC)}{132}
+\contentsline {subsubsection}{\numberline {23.5.4}Split-Concat-Shuffle(SCS) Module}{133}
+\contentsline {subsubsection}{\numberline {23.5.5}Dynamic Kernel Aggregation(DKA)}{133}
+\contentsline {subsubsection}{\numberline {23.5.6}Adaptive Context Modeling(ACM)}{134}
+\contentsline {subsubsection}{\numberline {23.5.7}Dense Context Modeling(DCM)}{135}
+\contentsline {subsubsection}{\numberline {23.5.8}Global Context Modeling(GCM)}{136}
+\contentsline {subsection}{\numberline {23.6}Conclusion}{136}
+\contentsline {section}{\numberline {24}ResRep: Lossless CNN Pruning via Decoupling Remembering and Forgetting}{137}
+\contentsline {subsection}{\numberline {24.1}Abstract}{137}
+\contentsline {subsection}{\numberline {24.2}Introduction}{137}
+\contentsline {subsection}{\numberline {24.3}Contributions}{138}
+\contentsline {subsection}{\numberline {24.4}Related Work}{139}
+\contentsline {subsection}{\numberline {24.5}ResRep for Lossless Channel Pruning}{139}
+\contentsline {subsubsection}{\numberline {24.5.1}Formulation and Background}{139}
+\contentsline {section}{\numberline {25}Distilling Knowledge via Knowledge Review}{139}
+\contentsline {subsection}{\numberline {25.1}Abstract}{139}
+\contentsline {subsection}{\numberline {25.2}Introduction}{139}
+\contentsline {subsection}{\numberline {25.3}Contributions}{140}
+\contentsline {subsection}{\numberline {25.4}Related Work}{140}
+\contentsline {subsection}{\numberline {25.5}Method}{141}
+\contentsline {subsubsection}{\numberline {25.5.1}Review Mechanism}{141}
+\contentsline {subsubsection}{\numberline {25.5.2}Residual Learning Framework}{143}
+\contentsline {subsubsection}{\numberline {25.5.3}ABF and HCL}{144}
+\contentsline {subsection}{\numberline {25.6}Conclusion}{145}
+\contentsline {section}{\numberline {26}Decoupled Knowledge Distillation}{145}
+\contentsline {subsection}{\numberline {26.1}Abstract}{145}
+\contentsline {subsection}{\numberline {26.2}Introduction}{145}
+\contentsline {subsection}{\numberline {26.3}Contributions}{148}
+\contentsline {subsection}{\numberline {26.4}Related Work}{148}
+\contentsline {subsection}{\numberline {26.5}Rethinking Knowledge Distillation}{148}
+\contentsline {subsubsection}{\numberline {26.5.1}Reformulating KD}{148}
+\contentsline {subsubsection}{\numberline {26.5.2}Effects of TCKD and NCKD}{149}
+\contentsline {subsubsection}{\numberline {26.5.3}Decoupled Knowledge Distillation}{150}
+\contentsline {subsection}{\numberline {26.6}Conclusion}{151}
+\contentsline {section}{\numberline {27}Multi-scale Feature Extraction and Fusion for Online Knowledge Distillation}{151}
+\contentsline {subsection}{\numberline {27.1}Abstract}{151}
+\contentsline {subsection}{\numberline {27.2}Introduction}{151}
+\contentsline {subsection}{\numberline {27.3}Comtributions}{152}
+\contentsline {subsection}{\numberline {27.4}Related Work}{152}
+\contentsline {subsubsection}{\numberline {27.4.1}Traditional Knowledge Distillation}{152}
+\contentsline {subsubsection}{\numberline {27.4.2}Online Knowledge Distillation}{153}
+\contentsline {subsubsection}{\numberline {27.4.3}Multi-scale Feature}{153}
+\contentsline {subsection}{\numberline {27.5}Proposed Method}{154}
+\contentsline {subsubsection}{\numberline {27.5.1}Multi-scale Feature Extraction}{154}
+\contentsline {subsubsection}{\numberline {27.5.2}Dual-attention}{155}
+\contentsline {subsubsection}{\numberline {27.5.3}Feature Fusion}{156}
+\contentsline {subsubsection}{\numberline {27.5.4}Loss Function}{157}
+\contentsline {subsection}{\numberline {27.6}Conclusion}{157}
+\contentsline {section}{\numberline {28}Learning Local-Global Contextual Adaptation for Multi-Person Pose Estimation}{158}
+\contentsline {subsection}{\numberline {28.1}Abstract}{158}
+\contentsline {subsection}{\numberline {28.2}Introduction}{158}
+\contentsline {subsection}{\numberline {28.3}Related Works}{158}
+\contentsline {subsubsection}{\numberline {28.3.1}Top-Down Pose Estimation}{158}
+\contentsline {subsubsection}{\numberline {28.3.2}Limb-based Grouping Approaches}{159}
+\contentsline {subsubsection}{\numberline {28.3.3}Direct Regression based Approaches}{159}
+\contentsline {subsection}{\numberline {28.4}Contributions}{159}
+\contentsline {subsection}{\numberline {28.5}Learning Local and Global Context}{159}
+\contentsline {subsubsection}{\numberline {28.5.1}Backbone Network}{159}
+\contentsline {subsubsection}{\numberline {28.5.2}Pose Initialization}{160}
+\contentsline {subsubsection}{\numberline {28.5.3}Local Context}{160}
+\contentsline {subsubsection}{\numberline {28.5.4}Local Context Convolutional Message Passing}{160}
+\contentsline {subsubsection}{\numberline {28.5.5}Local-Global Contextual Adaptation}{160}
+\contentsline {subsubsection}{\numberline {28.5.6}The Pose Estimation Output}{161}
+\contentsline {subsection}{\numberline {28.6}Loss Functions in Training}{161}
+\contentsline {subsubsection}{\numberline {28.6.1}The Heatmap Loss}{161}
+\contentsline {subsubsection}{\numberline {28.6.2}The Offset Field Loss}{161}
+\contentsline {subsubsection}{\numberline {28.6.3}The OKS Loss for the Keypoint Kernels}{162}
+\contentsline {subsubsection}{\numberline {28.6.4}The Total Loss}{162}
+\contentsline {subsection}{\numberline {28.7}Conclusion}{162}
+\contentsline {section}{\numberline {29}ViTPose:Simple Vision Transformer Baselines for Human Pose Estimation}{163}
+\contentsline {subsection}{\numberline {29.1}Abstract}{163}
+\contentsline {subsection}{\numberline {29.2}Introduction}{163}
+\contentsline {subsection}{\numberline {29.3}Contributions}{164}
+\contentsline {subsection}{\numberline {29.4}Related Work}{164}
+\contentsline {subsubsection}{\numberline {29.4.1}Vision transformer for pose estimation}{164}
+\contentsline {subsubsection}{\numberline {29.4.2}Vision transformer pre-training}{164}
+\contentsline {subsection}{\numberline {29.5}ViTPose}{164}
+\contentsline {subsubsection}{\numberline {29.5.1}The simplicity of ViTPose}{164}
+\contentsline {subsubsection}{\numberline {29.5.2}The scalability of ViTPose}{165}
+\contentsline {subsubsection}{\numberline {29.5.3}The flexibility of ViTPose}{165}
+\contentsline {subsubsection}{\numberline {29.5.4}The transferability of ViTPose}{166}
+\contentsline {subsection}{\numberline {29.6}Conclution}{166}

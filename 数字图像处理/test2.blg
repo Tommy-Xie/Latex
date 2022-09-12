@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/W32TeX)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: test2.aux
+The style file: IEEEtran.bst
+Illegal, another \bibstyle command---line 56 of file test2.aux
+ : \bibstyle
+ :          {cjc}
+I'm skipping whatever remains of this command
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: example.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 18 entries,
+            4087 wiz_defined-function locations,
+            943 strings with 13077 characters,
+and the built_in function-call counts, 19527 in all, are:
+= -- 1409
+> -- 672
+< -- 163
++ -- 362
+- -- 133
+* -- 986
+:= -- 2584
+add.period$ -- 48
+call.type$ -- 18
+change.case$ -- 30
+chr.to.int$ -- 420
+cite$ -- 18
+duplicate$ -- 1318
+empty$ -- 1593
+format.name$ -- 151
+if$ -- 4610
+int.to.chr$ -- 0
+int.to.str$ -- 18
+missing$ -- 268
+newline$ -- 77
+num.names$ -- 30
+pop$ -- 685
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 1442
+stack$ -- 0
+substring$ -- 1014
+swap$ -- 1126
+text.length$ -- 23
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 18
+warning$ -- 0
+while$ -- 84
+width$ -- 20
+write$ -- 199
+(There was 1 error message)

@@ -1,0 +1,24 @@
+\contentsline {section}{\numberline {1}数据表示}{3}
+\contentsline {subsection}{\numberline {1.1}标量，向量，矩阵和张量}{3}
+\contentsline {subsection}{\numberline {1.2}向量的范数}{4}
+\contentsline {subsection}{\numberline {1.3}常用的向量}{5}
+\contentsline {subsection}{\numberline {1.4}常见矩阵}{6}
+\contentsline {subsection}{\numberline {1.5}矩阵的操作}{7}
+\contentsline {subsection}{\numberline {1.6}主成分分析}{10}
+\contentsline {subsection}{\numberline {1.7}常用函数地有用性质}{14}
+\contentsline {subsection}{\numberline {1.8}距离公式}{14}
+\contentsline {subsection}{\numberline {1.9}张量的常用操作}{17}
+\contentsline {section}{\numberline {2}优化的基础————导数及其应用}{17}
+\contentsline {subsection}{\numberline {2.1}导数}{18}
+\contentsline {subsection}{\numberline {2.2}泰勒公式}{19}
+\contentsline {subsection}{\numberline {2.3}拉格朗日乘数法}{19}
+\contentsline {section}{\numberline {3}概率模型的基础————概率论}{20}
+\contentsline {subsection}{\numberline {3.1}随机变量}{21}
+\contentsline {subsection}{\numberline {3.2}概率分布}{21}
+\contentsline {subsection}{\numberline {3.3}边缘概率}{22}
+\contentsline {subsection}{\numberline {3.4}条件概率}{22}
+\contentsline {subsection}{\numberline {3.5}独立性}{23}
+\contentsline {subsection}{\numberline {3.6}期望，方差与协方差}{23}
+\contentsline {subsection}{\numberline {3.7}常用的概率分布}{24}
+\contentsline {subsection}{\numberline {3.8}贝叶斯规则(Bayes' rule)}{26}
+\contentsline {section}{\numberline {4}信息论}{26}

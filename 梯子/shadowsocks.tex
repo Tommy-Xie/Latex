@@ -1,0 +1,24 @@
+\documentclass[11pt]{article}
+\usepackage{ctex}
+
+\usepackage[left=1.25in,right=1.25in,top=1in,bottom=1in]{geometry}
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+
+\usepackage{fontspec}  % for Consolas
+
+\begin{document}
+1.等到出现root@host等字样，输入以下文字：
+
+wget $--$no-check-certificate -O shadowsocks.sh https://raw.githubusercontent.com/teddysun/
+shadowsocks\_install/master/shadowsocks.sh
+
+chmod +x shadowsocks.sh
+
+./shadowsocks.sh 2>\&1 | tee shadowsocks.log
+
+2.安装wget指令
+
+yum -y install wget
+
+\end{document}
