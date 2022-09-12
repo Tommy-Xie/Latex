@@ -11,6 +11,10 @@
 \section{系统相关的参数和函数}
 \subsection{sys.argv}
 一个列表，其中包含了被传递给Python脚本的命令行参数。argv[0] 为脚本的名称（是否是完整的路径名取决于操作系统）。如果是通过 Python 解释器的命令行参数 -c 来执行的， argv[0] 会被设置成字符串 '-c' 。如果没有脚本名被传递给 Python 解释器， argv[0] 为空字符串。
+
+当我们执行python using\_sys.py we are aruments的时候：
+
+'using\_sys.py'是sys.argv[0],\qquad 'we'是sys.argv[1], \qquad 'are'是sys.argv[2], \qquad 'arguments'是sys.argv[3]。
 \begin{Python}{获得用户输入}
 import sys
 

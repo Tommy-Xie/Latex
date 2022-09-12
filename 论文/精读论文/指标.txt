@@ -1,0 +1,25 @@
+Coco中，默认AP就是mAP(mean average precision:平均准确度)即mAP@.5IOU=AP@.5IOU,mAP@.75IOU=AP@.75IOU
+
+ioU 指标
+
+
+Averageprecision(AP):
+AP		%AP at ioU=0.50:0.05:0.95
+AP50		%AP at ioU=0.50
+AP75		%AP at ioU=0.75
+
+APAcrossScales: 
+APs		%AP(对于小目标):area<32^2   (41%)
+APm		%AP(对于中等目标):32^2<area<96^2  (34%)
+APl		%AP(对于大目标):area>96^2	(24%)
+area是分割掩码(Segmentation mask)中的像素点
+
+AverageRecall(AR)：
+
+
+AR Across Scales:
+ARsmall		%AR(对于小目标):area<32^2   (41%)
+ARm		%AR(对于中等目标):32^2<area<96^2  (34%)
+ARl		%AR(对于大目标):area>96^2	(24%)
+
+
